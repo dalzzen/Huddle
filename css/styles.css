@@ -1,0 +1,179 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+p{
+    display: inline-block;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+}
+h1{
+    color:white;
+    text-align: left;
+    text-shadow: 4px 4px 5px hsl(322, 100%, 66%);
+    margin-top: 3em;
+    margin-left: .35em;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    text-align: center;
+    margin: 2em 2em 0em 2em;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    color: hsl(192, 100%, 9%);
+    font-weight: 600;
+    text-align: centers;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(12,auto);
+}
+.head{
+    background-color: hsl(193, 100%, 96%);
+    margin: 0px;   
+    background-image: url("/images/bg-hero-mobile.svg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+}
+.bghero{
+    width: 10%;
+    
+    
+}
+.logo{
+    width: 30%;
+    margin: 1.5em;
+    float: left;
+}
+.primertexto{
+    font-weight: 500;
+    margin: 2em 2em 2em 2em;
+
+}
+.try{
+    background-color:white;
+    border: none;
+    border-radius: 180px;
+    color: black;
+    font-size: 0.72rem;
+    font-family: 'Poppins';
+    float: right;
+    padding: 0.3em 2em 0.3em 2em;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+    margin: 1.5em;
+}
+.Getstart{
+    background-color:hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 180px;
+    color:white;
+    font-size: 0.72rem;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 1em 4em 1em 4em;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+    margin-bottom: 2em;
+}
+.mockups{
+    width: 75%;
+    margin: 1.5em;
+}
+.grow{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.growimg{
+    margin: 5em 0em 0em 1em;
+    width: 65%;
+}
+.segundotexto{
+    margin: 0em 3em .5em 3em;
+    font-size: .9em;
+    font-weight: 200;
+    color: hsl(192, 100%, 9%);
+    opacity: 0.5;
+}
+.flowing{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.users{
+    text-align: center;
+    margin-bottom: 3em;
+}
+.contact{
+    background-color: hsl(192, 100%, 9%);
+    text-align: left;
+}
+.contacttext{
+    color: white;
+    display: inline-block;
+
+}
+.location{
+    margin: 1em;
+}
+.locationsvg{
+    float: left;
+    display: block;
+    width: 6.2%;
+    
+   
+}
+
+.logo2{
+    width: 30%;
+    margin: 0 ;
+}
+.locationtext{
+    font-size: .75em;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 0em 0em 0em 1em;
+}
+.numero{
+    margin: 1em;
+}
+.numerotexto{
+    font-size: .75em;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 0em 0em 0em 1em;
+}
+.correo{
+    margin: 1em;
+}
+.correotexto{
+    font-size: .75em;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 0em 0em 0em 1em;
+}
+
+.abouttext{
+    font-size: .90em;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 0em 0em 0em 1em;
+    line-height: 2;
+}
+.invitacion{
+    margin: 0em 2em 0em 2em;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
